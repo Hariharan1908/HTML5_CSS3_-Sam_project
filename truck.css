@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+    /* background-image: url(./Logo/truck-logistics-operations-dusk.jpg); */
+    /* background-color: white; */
+    /* color: black; */
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background:white;
+}
+.Hello a{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px ;
+    background-color: yellow;
+    color: blue;
+    /* text-decoration: none; */
+    animation: header 2s ease-in-out; 
+
+}
+ @keyframes header{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+
+form.form{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+td.button{
+    padding-top: 2%;
+    
+    button{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 20px;
+        background: white;
+        color: rgb(0, 0, 0);
+        font-size: 16px;     
+        border-radius: 20px;
+        text-decoration:none;
+        box-shadow: 2px 3px 2px ;
+    }
+    button a{
+        text-decoration: none;
+    }
+    button:hover{
+        background:red;
+    }
+    
+    button :visited{
+        color: black;
+    }
+    
+    button:active{
+        background-color:green;
+    }
+}
+
+table.class{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    
+}
+h1,h3{
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}  
+.content h1{
+    color: red;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.content{
+    /* width: 50%; */
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    overflow: hidden;
+    /* /* animation: content 3s ease-in-out; */
+}
+/* @keyframes content 3s ease-in-out{
+    0%{
+        transform: translateX(-50%);
+    }
+}  */
+
+.truckimg{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 1480px;
+    margin-top: 5%;
+    z-index: -1;
+    animation: trucks 2s ease-in-out;
+}
+@keyframes trucks{
+    0%{
+        transform: translateX(-100%);
+        transition: 0ms;
+    }
+}
+
+.list{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    border: 5px;
+    border-radius: 10px;
+    /* background-image: image(./); */
+}
+
+
+
+
+footer pre,a{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+footer,a{
+    color: blue;
+}
+footer p{
+    padding: 5px;
+    color:black;
+}
+
+footer h2{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
